@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:  #1A7151;
+  background-size: contain;
+  align-items: end;
+}
+
+h1 {
+  display: flex;
+  text-align: center;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 4px;
+  left: 73%;
+  color: #fff34c;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-menu{
+  display: flex;
+  margin-right: -157px;
+  padding: 0px;
+}
+
+.item {
+  width: 48%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  background-color: #f4f4f4;
+}
+
+.item label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.item input[type="checkbox"] {
+  margin-right: 5px;
+  width: 26vw;
+}
+
+.checkout {
+  text-align: center;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 20px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: right;
+  border: none;
+  border-radius: 45%;
+  cursor: pointer; 
+}
+
+input{
+  block-size: 15px;
+}
+
+.check{
+  display: flex;
+  justify-content: left;
+  margin-top: 188px;
+  margin-right: -240px;
+  background-color: gray;
+}

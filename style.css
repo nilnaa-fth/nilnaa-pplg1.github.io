@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    height: 200px;
+    /*background-color: rgb(69, 90, 138);*/
+}
+
+.navbar .active {
+    background-color:darkgrey;
+}
+
+nav a {
+    padding: 5px;
+    color:black;
+    /*background-color: aquamarine;*/
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: darkgrey;
+}
+
+#wrapper {
+    display: flex;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+    /*background-color: rgb(73, 110, 131);*/
+}
+
+aside {
+    width: 200px;
+    margin: 0 auto;
+    /*background-color: darkgrey;*/
+}
